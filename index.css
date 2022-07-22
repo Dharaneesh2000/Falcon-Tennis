@@ -1,0 +1,69 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.tennis-bg {
+    background-image: url("img/Tennis.jpg");
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4e1113;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: auto;
+    height: 56px;
+}
+
+.content {
+    position: absolute;
+    top: 45%;
+    margin-right: 55%;
+}
+
+@media screen and (max-width: 792px) {
+    .tennis-bg {
+        background-image: url("img/Tennis-mob.jpg");
+        position: relative;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #4e1113;
+    }
+
+    .logo {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        width: auto;
+        height: 36px;
+    }
+
+    .content {
+        position: absolute;
+        top: 67%;
+        bottom: 5%;
+        margin-right: 10%;
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 10px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    .card-body{
+        padding-bottom: 0px !important;
+    }
+}
